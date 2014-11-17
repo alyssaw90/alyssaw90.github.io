@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+	<link href="style.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<title>Alyssa Williams</title>
+	<script	src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
+	</script>
+	<script> 
+		$(document).ready(function(){
+  			$("#flip").click(function(){
+    			$("#panel").slideToggle("slow");
+  			});	
+		});
+	</script>
+	<script>
+		function myFunction() { document.getElementById("demo").innerHTML = "Happy Halloween!";}
+	</script>
+	<script>
+		$(function () {
+    	$('.tlt').textillate({ in: { effect: 'rollIn' } 		});
+		})
+	</script>
+</head>
+<body>
+	<h1 class="tlt" data-in-effect="rollIn">Alyssa Williams</h1>
+	<img src="img/picture.jpg">
+	<div id="flip">About Me</div>
+	<div id="panel">Here is a little bit about me. I was born in Frankfurt, Germany. I graduated from the University of Portland with B.S. in Life Science for Pre-Physical Therapy and minor in Athletic Training. After graduating I moved to Seattle. I love this city. I work at a skilled nursing facility as the Director of Rehab Assistant. The last few months I have started learning how to code and I love it. This is leading me to a new career path. I have enjoyed working in healthcare, but the healthcare system needs some work. So, I want to become a web developer to work for a healthcare startup or maybe start my own. In my spare time, I spend time with my friends and family. I enjoy traveling and experiencing new cultures. For fun I enjoy playing softball, going to the movies, and doing Pinspired crafts. Also, I recently became a Lyft driver, which is awesome! But, when I need some "me time" I will attempt a Harry Potter movie marathon or watch a new show on Netflix.</div> 
+	<a href="mailto:alyssaw90@gmail.com">alyssaw90@gmail.com</a>
+
+	
+	<button onclick="myFunction()">Click Here!</button>
+	<p id="demo"></p>
+</body>
